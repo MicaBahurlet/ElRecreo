@@ -95,7 +95,7 @@ body{
 
 #Hero .Textos--Hero h2{
     margin-bottom: 0.5rem;
-    font-size: 30px;
+    font-size: 29px;
     Text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
@@ -238,4 +238,62 @@ body{
     align-items: center;
     text-align: center;
     margin-top: 4rem;
+}
+
+#MásInfoProyecto h3{
+    margin-bottom: 1rem;
+    font-size: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    max-width: 850px;
+    margin: 3rem auto 2rem;
+    padding: 15px;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+
+#MásInfoProyecto p{
+    margin-bottom: 1rem;
+    font-size: 18px;
+    max-width: 780px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+#Contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 3rem auto 6rem;
+    max-width: 1200px;
+}
+
+#Contacto h3{
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+#Contacto p{
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 600px;
+    text-align: justify;
+}
+
+#Contacto .BTNContacto a{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+    padding: 15px 15px;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+    text-decoration: none;
+    font-weight: 600;
 }
