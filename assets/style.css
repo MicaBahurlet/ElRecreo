@@ -116,7 +116,7 @@ body{
 #Hero .Btn--Hero .IniciaSesionBtn{
     color: white;
     background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
-    padding: 15px 15px;
+    padding: 18px 20px;
     border-radius: 13px;
     -webkit-border-radius: 13px;
     -moz-border-radius: 13px;
@@ -124,12 +124,14 @@ body{
     -o-border-radius: 13px;
     text-decoration: none;
     font-weight: 600;
+    width: 10rem;
+    text-align: center;
 }
 
 #Hero .Btn--Hero .Registro{
     color: whitesmoke;
     background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
-    padding: 15px 15px;
+    padding: 18px 20px;
     border-radius: 13px;
     -webkit-border-radius: 13px;
     -moz-border-radius: 13px;
@@ -137,6 +139,8 @@ body{
     -o-border-radius: 13px;
     text-decoration: none;
     font-weight: 600;
+    width: 10rem;
+    text-align: center;
 }
 
 
@@ -300,6 +304,7 @@ body{
     font-size: larger;
 }
 
+
 footer{
     display: flex;
     align-items: center;
@@ -310,16 +315,141 @@ footer{
     -webkit-backdrop-filter: blur( 10.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+   
 
 }
 
 footer h4{
     font-size: 20px;
     line-height: 1.8;
+
 }
-
-
 
 footer .LogoMicaBahurlet img{
     max-width: 180px;
 }
+
+
+/*REGISTRO*/
+
+#Registro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 3rem auto;
+}
+
+#Registro img{
+    margin-top: 11rem;
+}
+
+
+form{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form h2{
+    text-align: start;
+    font-size: 35px;
+    text-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+
+}
+.inputGroup{
+    font-size: 25px;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: start;
+    gap: 5px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.inputGroupInicio{
+    font-size: 25px;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: center;
+    gap: 5px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.inputGroup .TerminosyCondiciones{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.TerminosyCondiciones a{
+    font-size: 15px;
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+}
+
+.BTNRegistro{
+    font-weight: 900;
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+    color: whitesmoke;
+    cursor: pointer;
+    width: 11rem;
+    text-align: center;
+}
+
+.TieneCuenta p a{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    text-decoration: none;
+    text-align: center;
+    color: #4e4376;
+    font-weight: 900;
+    cursor: pointer;
+    text-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+label{
+    text-align: start;
+}
+
+input, textarea{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 10px 25px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background-color: #cfd9df;
+    border: 2px solid black;
+    text-align: start;
+    color: black;
+    font-weight: 900;
+    font-size: 17px;
+}
+
