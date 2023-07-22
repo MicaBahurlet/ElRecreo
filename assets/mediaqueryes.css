@@ -2,13 +2,16 @@
    .navbar ul{
         background-color: white;
         width: 100%;
-        margin-top: 105px;
+        margin-top: 80px;
         position: fixed;
         left: 0;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         display: none;
+        font-size: larger;
+        padding: 25px;
+        font-weight: 900;
     }
     .navbar i{
         display: block;
@@ -16,4 +19,175 @@
     #toggle-menu:checked ~ .navbar-list {
         display: flex;
     }
+
+    #Hero{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 900px;
+        max-width: 500px;
+    }
+
+    #Hero .Img--Hero img{
+        max-width: 350px;
+    }
+
+    #Hero .Textos--Hero h1{
+        text-align: center;
+        font-size: 30px;
+        max-width: 450px;
+    }
+
+    #Hero .Textos--Hero h2{
+        text-align: center;
+        font-size: 18px;
+        max-width: 450px;
+    }
+
+    #Hero .Textos--Hero h3{
+        text-align: center;
+        font-size: 16px;
+        max-width: 450px;
+    }
+
+    #Hero .Btn--Hero{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: 16px;
+        gap: 20px;
+    }
+
+    #Hero .Btn--Hero .IniciaSesionBtn{
+        width: 7rem;
+        padding: 13px 10px;
+        text-align: center;
+    }
+
+    #Hero .Btn--Hero .Registro{
+        width: 7rem;
+        padding: 13px 10px;
+        text-align: center;
+    }
+
+    #MisionSeccion{
+        display: flex;
+        max-width: 450px;
+        line-height: 1.5;
+    }
+
+    #MisionSeccion p{
+        max-width: 400px;
+        text-align: center;
+    }
+
+    #ElProyecto h3{
+        text-align: center;
+        max-width: 450px;
+        line-height: 1.5;
+    }
+
+    #CardContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 300px;
+    }
+    #MásInfoProyecto{
+        display: flex;
+        max-width: 450px;
+        line-height: 1.5;
+    }
+
+    #MásInfoProyecto p{
+        max-width: 400px;
+        text-align: center;
+
+    }
+
+    #Contacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Contacto h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #Contacto p{
+        max-width: 300px;
+        text-align: center;
+        
+    }
+
+    #Contacto .BTNContacto a{
+        width: 7rem;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer h4{
+        max-width: 400px;
+        padding: 10px;
+        font-size: 17px;
+    }
+
+    #Registro{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        max-width: 500px;
+    }
+
+    #Registro img{
+        max-width: 340px;
+    }
+
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 300px;
+    }
+
+    form h2{
+        max-width: 400px;
+        text-align: center;
+        font-size: 30px;
+        line-height: 1.8;
+    }
+
+    .inputGroup{
+        max-width: 300px;
+    }
+
+    .inputGroup .TerminosyCondiciones{
+        text-align: center;
+        max-width: 7rem;
+    }
+
+    .BTNRegistro{
+        max-width: 7rem;
+    }
+
+    .TieneCuenta p a{
+        font-size: larger;
+    }
+
+
+    
+    
 }
