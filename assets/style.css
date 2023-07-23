@@ -5,8 +5,14 @@
     font-family: 'Cabin', sans-serif;
 }
 
+/*------------- ANIMACIONES Y GENERALES HTML -----------------------*/
 
-/*-----NAVBAR---*/
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 11rem; /*Ver que esta altura esté bien, para que la seccion no quede tapada. depende de la altura del navbar*/
+}
+
+/*------------------------------ NAVBAR -----------------*/
 
 .header{
     display: flex;
@@ -43,6 +49,41 @@
     display: flex;
 }
 
+/*------------------ ANIMATION NAVBAR -------------*/
+
+.navbar .navbar-list li { 
+    position: relative;
+    padding: 0;
+}
+.navbar .navbar-list li a::after{
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    transition: transform .4s ease;
+    -webkit-transition: transform .4s ease;
+    -moz-transition: transform .4s ease;
+    -ms-transition: transform .4s ease;
+    -o-transition: transform .4s ease;
+}
+.navbar .navbar-list li a:hover::after{
+    transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
 .navbar i {
     font-size: 34px;
     display: none;
@@ -68,7 +109,7 @@ body{
     
 }
 
-/*--- HERO ---*/
+/*------------------- HERO --------------*/
 
 #Hero{
     display: flex;
@@ -129,10 +170,15 @@ body{
     -ms-border-radius: 13px;
     -o-border-radius: 13px;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
     width: 10rem;
     text-align: center;
-    border: 2px solid black;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+   
+}
+
+#Hero .Btn--Hero .IniciaSesionBtn:hover{
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
 }
 
 #Hero .Btn--Hero .Registro{
@@ -145,13 +191,18 @@ body{
     -ms-border-radius: 13px;
     -o-border-radius: 13px;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
     width: 10rem;
     text-align: center;
-    border: 2px solid black;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    
 }
 
-/*--- MISION SECCION ---*/
+#Hero .Btn--Hero .Registro:hover{
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+/*----------------- MISION SECCION --------------*/
 
 #MisionSeccion{
     display: flex;
@@ -184,7 +235,7 @@ body{
     -o-border-radius: 14px;
     background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
     color: whitesmoke;
-    border: 2px solid black;
+   
 }
 
 #MisionSeccion p{
@@ -193,7 +244,7 @@ body{
     max-width: 900px;
 }
 
-/*--- EL PROYECTO AND CARDS ---*/
+/*-------------------------- EL PROYECTO AND CARDS --------------*/
 
 #ElProyecto h3{
     display: flex;
@@ -234,6 +285,10 @@ body{
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
+#CardContainer .Cards-Proyecto:hover{
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+}
+
 #CardContainer .Cards-Proyecto img{
     max-width: 300px;
     text-align: center;
@@ -254,7 +309,7 @@ body{
     line-height: 1.5;
 }
 
-/*--- MÁS INFO PROYECTO ---*/
+/*------------------------ MÁS INFO PROYECTO -------------*/
 
 #MásInfoProyecto{
     display: flex;
@@ -279,7 +334,7 @@ body{
     -o-border-radius: 14px;
     background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
     color: whitesmoke;
-    border: 2px solid black;
+   
 }
 
 #MásInfoProyecto p{
@@ -290,7 +345,7 @@ body{
     text-align: center;
 }
 
-/*--- CONTACTO ---*/
+/*--------------------------------- CONTACTO ------------------------*/
 
 #Contacto{
     display: flex;
@@ -325,11 +380,15 @@ body{
     -ms-border-radius: 13px;
     -o-border-radius: 13px;
     text-decoration: none;
-    font-weight: 600;
-    font-size: larger;
-    border: 2px solid black;
+    font-weight: 700;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
+#Contacto .BTNContacto a:hover{
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+/*------------------- FOOTER ---------------------*/
 
 footer{
     display: flex;
@@ -356,7 +415,7 @@ footer .LogoMicaBahurlet img{
 }
 
 
-/*REGISTRO AND INICIO DE SESIÓN*/
+/*-------------------REGISTRO AND INICIO DE SESIÓN---------------------*/
 
 #Registro{
     display: flex;
@@ -372,6 +431,8 @@ footer .LogoMicaBahurlet img{
     max-width: 500px;
 }
 
+
+/*------------------- FORMULARIOS ---------------------*/
 
 form{
     margin-top: 120px;
