@@ -25,7 +25,7 @@
         -moz-transition: all .5s ease-in-out;
         -ms-transition: all .5s ease-in-out;
         -o-transition: all .5s ease-in-out;
-}
+    }
     .navbar i{
         display: block;
     }
@@ -45,12 +45,16 @@
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 700px;
+        height: 900px;
         max-width: 500px;
+        margin-top: 300px;
+        margin-bottom: 12rem;
+        background-size: 100vw;  
     }
 
+
     #Hero .Img--Hero img{
-        max-width: 350px;
+        max-width: 300px;
     }
 
     #Hero .Textos--Hero h1{
@@ -93,8 +97,7 @@
         text-align: center;
         align-items: center;
         font-size: 15px;
-        gap: 20px;
-        
+        gap: 20px;   
     }
 
     #Hero .Btn--Hero .IniciaSesionBtn{
