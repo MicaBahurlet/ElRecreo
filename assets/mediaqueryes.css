@@ -1,6 +1,6 @@
 
-
 @media (max-width:600px){
+ 
     /*------------------- NAVBAR -----------------*/
    .navbar ul{
         background: whitesmoke;
@@ -46,16 +46,22 @@
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 900px;
         max-width: 500px;
         margin-top: 300px;
         margin-bottom: 12rem;
-        background-image: 100vw; 
+        background-image: none; /*ver, con esto quito la img que me molesta, ver solucion*/
     }
 
 
     #Hero .Img--Hero img{
         max-width: 300px;
+    }
+
+    #Hero .Textos--Hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     #Hero .Textos--Hero h1{
@@ -142,6 +148,13 @@
 
     /*------------------- EL PROYECTO AND CARDS -----------------*/
 
+    #ElProyecto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }    
+
     #ElProyecto h3{
         text-align: center;
         max-width: 450px;
@@ -153,16 +166,17 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        max-width: 280px;
+        max-width: 300px;
+        
         
     }
 
-    #CardContainer .Cards-Proyecto{
-        
+    #CardContainer .Cards-Proyecto{  
         box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
         display: flex;
         align-items: center;
         justify-content: center;
+        max-width: 280px;
     }
 
     /*------------------- MAS INFO SECCION -----------------*/

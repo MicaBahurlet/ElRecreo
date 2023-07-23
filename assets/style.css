@@ -106,7 +106,7 @@ main {
 }
 
 body{
-    background-color:whitesmoke;
+    background-color:whitesmoke
     
 }
 
@@ -118,7 +118,7 @@ body{
     align-items: center;
     margin-top: 70px;
     gap: 4rem;
-    height: 600px;
+    height: 35rem;
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     
 }
