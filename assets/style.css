@@ -68,7 +68,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 70px;
     gap: 4rem;
     height: 600px;
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
@@ -126,6 +126,7 @@ body{
     font-weight: 600;
     width: 10rem;
     text-align: center;
+    border: 2px solid black;
 }
 
 #Hero .Btn--Hero .Registro{
@@ -141,6 +142,7 @@ body{
     font-weight: 600;
     width: 10rem;
     text-align: center;
+    border: 2px solid black;
 }
 
 
@@ -173,6 +175,9 @@ body{
     -moz-border-radius: 14px;
     -ms-border-radius: 14px;
     -o-border-radius: 14px;
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    color: whitesmoke;
+    border: 2px solid black;
 }
 
 #MisionSeccion p{
@@ -187,6 +192,7 @@ body{
     align-items: center;
     margin: 2rem 2rem;
     font-size: 25px;
+    text-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -216,6 +222,7 @@ body{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
 #CardContainer .Cards-Proyecto img{
@@ -244,6 +251,7 @@ body{
     align-items: center;
     text-align: center;
     margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 #MásInfoProyecto h3{
@@ -258,6 +266,9 @@ body{
     -moz-border-radius: 14px;
     -ms-border-radius: 14px;
     -o-border-radius: 14px;
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    color: whitesmoke;
+    border: 2px solid black;
 }
 
 #MásInfoProyecto p{
@@ -303,6 +314,7 @@ body{
     text-decoration: none;
     font-weight: 600;
     font-size: larger;
+    border: 2px solid black;
 }
 
 
