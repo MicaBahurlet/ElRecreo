@@ -1,5 +1,6 @@
-@media (max-width:600px){
 
+
+@media (max-width:600px){
     /*------------------- NAVBAR -----------------*/
    .navbar ul{
         background: whitesmoke;
@@ -49,7 +50,7 @@
         max-width: 500px;
         margin-top: 300px;
         margin-bottom: 12rem;
-        background-size: 100vw;  
+        background-image: 100vw; 
     }
 
 
