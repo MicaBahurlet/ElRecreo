@@ -68,7 +68,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
     gap: 4rem;
     height: 600px;
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
@@ -202,6 +202,7 @@ body{
     margin-bottom: 3rem;
     text-align: center;
 }
+
 
 #CardContainer .Cards-Proyecto{
     display: flex;
@@ -343,6 +344,7 @@ footer .LogoMicaBahurlet img{
 
 #Registro img{
     margin-top: 11rem;
+    max-width: 500px;
 }
 
 
@@ -392,21 +394,14 @@ form h2{
 
 .inputGroup .TerminosyCondiciones{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
+    gap: 20px;
 }
 
 .TerminosyCondiciones a{
     font-size: 15px;
-    background-color: whitesmoke;
-    padding: 10px 20px;
-    border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-    border: 2px solid black;
     text-decoration: none;
     color: black;
 }

@@ -26,7 +26,7 @@
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 900px;
+        height: 700px;
         max-width: 500px;
     }
 
@@ -57,12 +57,12 @@
         justify-content: center;
         text-align: center;
         align-items: center;
-        font-size: 16px;
+        font-size: 15px;
         gap: 20px;
     }
 
     #Hero .Btn--Hero .IniciaSesionBtn{
-        width: 7rem;
+        width: 8rem;
         padding: 13px 10px;
         text-align: center;
     }
@@ -75,12 +75,12 @@
 
     #MisionSeccion{
         display: flex;
-        max-width: 450px;
+        max-width: 300px;
         line-height: 1.5;
     }
 
     #MisionSeccion p{
-        max-width: 400px;
+        max-width: 350px;
         text-align: center;
     }
 
@@ -95,16 +95,19 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        max-width: 300px;
+        max-width: 280px;
     }
     #MásInfoProyecto{
         display: flex;
-        max-width: 450px;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem auto;
+        max-width: 300px;
         line-height: 1.5;
     }
 
     #MásInfoProyecto p{
-        max-width: 400px;
+        max-width: 300px;
         text-align: center;
 
     }
@@ -130,7 +133,9 @@
     }
 
     #Contacto .BTNContacto a{
-        width: 7rem;
+        width: 8rem;
+        padding: 13px 10px;
+        text-align: center;
     }
 
     footer{
@@ -154,6 +159,7 @@
 
     #Registro img{
         max-width: 340px;
+        
     }
 
     form{
@@ -176,11 +182,14 @@
 
     .inputGroup .TerminosyCondiciones{
         text-align: center;
-        max-width: 7rem;
+        max-width: 20rem;
+        font-size: 16px;
     }
 
     .BTNRegistro{
-        max-width: 7rem;
+        width: 7rem;
+        padding: 13px 10px;
+        text-align: center;
     }
 
     .TieneCuenta p a{
