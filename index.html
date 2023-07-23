@@ -6,13 +6,14 @@
     <title>El Recreo| Rincón Recreativo</title>
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="./assets/mediaqueryes.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="./img/lanzamiento-de-producto.png" type="image/x-icon">
 </head>
 <body>
     <header class="header">
            <a href="./index.html">
-             <img src="./img/ElRecreo3.png" alt="LogoElRecreo">
+             <img src="./img/ElRecreo3.png" alt="LogoElRecreo" data-aos="zoom-in">
             </a>
 
         <nav class="navbar">
@@ -39,14 +40,14 @@
                 </div>
             </div>
 
-            <div class="Img--Hero">
+            <div class="Img--Hero" data-aos="zoom-in" >
                 <img src="./img/GrupoAbrazado.png" alt="GrupoAbrazado">
             </div>
         </section>
 
         <section id="MisionSeccion"> <!--ponerle una animación a todo el div de zoom-in-->
             <div>
-                <h2>La misión: revalorizar el papel de la RECREACION como motor educativo.</h2>
+                <h2 data-aos="zoom-in">La misión: revalorizar el papel de la RECREACION como motor educativo.</h2>
                 <p>Éste espacio que <b> contruimos entre todos y todas</b> está destinado a <strong> profesores y profesoras de educación física,</strong> <strong> recreólogos y recreólogas</strong>, o cualquier persona 
                     que confíe en el poder de la <strong> recreación</strong> <br> como un <strong> medio para construir aprendizajes.</strong>
                 </p>                
@@ -59,7 +60,7 @@
             </div>
         </section>
 
-        <section id="CardContainer">
+        <section id="CardContainer"  data-aos="zoom-in" >
             <div class="Cards-Proyecto">
                 <img src="./img/Canciones.png" alt="Canciones Recreativas">
                 <h3>Canciones  recreativas y motrices</h3>
@@ -81,7 +82,7 @@
 
         <section id="MásInfoProyecto">
             <div>
-                <h3>Es momento de ser conscientes de nuestro importante papel como educadores y educadoras</h3>
+                <h3 data-aos="zoom-in" >Es momento de ser conscientes de nuestro importante papel como educadores y educadoras</h3>
                 <p><strong> Educando en valores</strong>, desde <strong> estrategias cooperativas</strong>, desde <strong> posturas críticas</strong> y con una <strong> participación activa</strong>, vinculada a  <strong> SENTIRES, EXPERIENCIAS, GUSTOS</strong> y a la propia <strong> CREATIVIDAD</strong>, <br> <strong> PODEMOS CAMBIAR LAS COSAS.</strong></p>
                 <!--Me gustaría agregar una img-->    
             </div>
@@ -90,11 +91,11 @@
 
         <section id="Contacto">
             <div>
-                <img src="./img/Yo1.png" alt="MicaelaBahurlet">
+                <img src="./img/Yo1.png" alt="MicaelaBahurlet" data-aos="fade-right">
             </div>
 
             <div>
-                <h3>&#128075 ¡Hola!</h3>
+                <h3 data-aos="zoom-in" >&#128075 ¡Hola!</h3>
                 <p>Mi nombre es <strong> Micaela Bahurlet</strong>, soy <strong> profesora de educación física</strong> y desde hace más de 7 años
                     me desarrollo en el campo de la <strong> Recreación con un enfoque educativo</strong>. <br> <br>Desde el año 2020 soy docente de la 
                     cátedra <strong> Didáctica de las Prácticas de la Recreación Participativa en el ISFD N°47 Profesorado
@@ -103,7 +104,7 @@
                     y espero que el mismo te permita, al igual que a mi, enriquecer tu práctica.
                 </p>
             </div>
-            <div class="BTNContacto">
+            <div class="BTNContacto" data-aos="fade-left">
                 <a href="#">Hablemos</a> <!--linkearWhatsApp-->
             </div>
 
@@ -126,7 +127,13 @@
 
 
   
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    </script>
 
 
     
