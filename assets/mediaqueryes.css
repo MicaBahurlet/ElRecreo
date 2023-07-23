@@ -41,7 +41,7 @@
         flex-direction: column;
         text-align: center;
         margin: 1rem auto;
-        font-size: 30px;
+        font-size: 28px;
         max-width: 400px;
         margin-bottom: 1rem;
     }
@@ -102,8 +102,8 @@
 
     #MisionSeccion h2{
         font-size: 20px;
-        background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
-        color: whitesmoke;
+        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+        color: black;
         line-height: 1.3;
         border: 2px solid black;
         
@@ -149,8 +149,9 @@
 
     #MásInfoProyecto h3{
         font-size: 20px;
-        background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
-        color: whitesmoke;
+        font-weight: 500;
+        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+        color: black;
         line-height: 1.3;
         border: 2px solid black;
     }
