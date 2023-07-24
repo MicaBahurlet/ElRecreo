@@ -313,6 +313,248 @@
 
 }    
 
+/*------------------- TABLET RESPONSIVE ----------*/
 
 
-    
+@media (min-width: 670px) and (max-width: 1024px) {
+
+    .navbar ul{
+        font-size: 18px;
+    }
+
+    #Hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        max-width: 1224px;
+        padding: 45px;
+        margin-top: 6.8rem;
+    }
+
+    #Hero .Img--Hero img{
+        max-width: 600px;
+    }
+
+    #Hero .Textos--Hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Hero .Textos--Hero h1{
+        font-size: 35px;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        max-width: 600px;
+
+    }
+
+    #Hero .Textos--Hero h2{
+        font-size: 24px;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        max-width: 600px;
+    }
+
+    #Hero .Textos--Hero h3{
+        font-size: 19px;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        max-width: 600px;
+        margin-top: 1rem;
+    }
+
+    #Hero .Btn--Hero{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Hero .Btn--Hero .IniciaSesionBtn{
+        font-size: 15px;
+        padding: 14px 14px;
+        max-width: 8rem;
+    }
+
+    #Hero .Btn--Hero .Registro{
+        font-size: 15px;
+        padding: 14px 14px;
+        max-width: 8rem;
+    }
+
+    /*----------------- MISION SECCION --------------*/
+
+
+    #MisionSeccion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        max-width: 800px;
+    }
+
+    #MisionSeccion h2{
+        font-size: 19px;
+        padding: 15px 15px;
+    }
+
+    #MisionSeccion p{
+        text-align: center;
+    }
+
+    /*-------------------------- EL PROYECTO AND CARDS --------------*/
+
+    #ElProyecto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        max-width: 800px;
+        margin: 1rem auto;
+    }
+
+    #ElProyecto h3{
+       font-weight: 900; 
+    }
+
+    #CardContainer{
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        width: 100%;
+        height: auto;
+        max-width: 700px;
+    }
+
+    #CardContainer .Cards-Proyecto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        max-width: 210px;
+    }
+
+    #CardContainer .Cards-Proyecto img{
+        max-width: 185px;
+    }
+
+
+    #CardContainer .Cards-Proyecto p{
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    /*------------------------ MÁS INFO PROYECTO -------------*/
+
+    #MásInfoProyecto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        max-width: 700px;
+        margin: 1rem auto;
+    }
+
+    #MásInfoProyecto h3{
+        font-size: 20px;
+        padding: 15px 15px;
+    }
+
+    #MásInfoProyecto p{
+        width: 100%;
+        height: auto;
+        max-width: 600px;
+        margin: 1rem auto;
+    }
+
+    /*--------------------------------- CONTACTO ------------------------*/
+
+    #Contacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        max-width: 700px;
+    }
+
+    #Contacto h3{
+        font-weight: 900px;
+    }
+
+
+    #Contacto p{
+        text-align: justify;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    footer h4{
+        margin-top: 2rem;
+    }
+
+    /*-------------------REGISTRO AND INICIO DE SESIÓN---------------------*/
+
+    #Registro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        max-width: 1222px;
+
+    }
+
+    #Registro img{
+        max-width: 400px;
+    }
+
+    /*------------------- FORMULARIOS ---------------------*/
+
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        max-width: 1224px;
+        margin: 7rem 2rem;
+    }
+
+    form h2{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        max-width: 600px;
+        font-size: 30px;
+    }
+
+    .inputGroup {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .TerminosyCondiciones a{
+        font-size: 16px;
+    }
+
+}  
