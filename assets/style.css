@@ -134,6 +134,7 @@ body{
     width: 100%;
     height: auto;
     max-width: 500px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2));
   
 }
 

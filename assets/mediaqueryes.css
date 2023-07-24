@@ -43,19 +43,18 @@
     #Hero{
         display: flex;
         flex-direction: column-reverse;
-        align-items: center;
         justify-content: center;
-        width: 100%;
-        max-width: 500px;
+        align-items: center;
         padding: 20px;
-        margin-top: 60px;
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+        
     }
 
-
     #Hero .Img--Hero img{
+        max-width: 340px;
         margin-top: 3rem;
-        max-width: 300px;
-        filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2));
     }
 
     #Hero .Textos--Hero{
@@ -63,202 +62,195 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        text-align: center;
         width: 100%;
         height: auto;
-        max-width: 400px;
-        line-height: 1.5;
-    }
-
-    #Hero .Textos--Hero h1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-        margin: 1rem auto;
-        font-size: 28px;
-        max-width: 400px;
-        margin-bottom: 1rem;
-    }
-
-    #Hero .Textos--Hero h2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin: 1rem auto;
-        font-size: 18px;
         max-width: 300px;
     }
 
+    #Hero .Textos--Hero h1 {
+        max-width: 300px;
+        font-size: 29px;
+        margin-bottom: 2rem;
+    }
+
+    #Hero .Textos--Hero h2{
+        max-width: 300px;
+        font-size: 20px;
+    }
+
     #Hero .Textos--Hero h3{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-        margin: 1rem auto;
-        text-align: center;
-        font-size: 16px;
-        max-width: 400px;
+        max-width: 300px;
+        font-size: 16px; 
     }
 
     #Hero .Btn--Hero{
         display: flex;
         justify-content: center;
-        text-align: center;
         align-items: center;
-        font-size: 15px;
-        gap: 20px;   
+        width: 100%;
+        height: auto;
+        max-width: 300px;
     }
 
     #Hero .Btn--Hero .IniciaSesionBtn{
-        width: 8rem;
-        padding: 13px 10px;
-        text-align: center;
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+        font-size: 16px;
+        max-width: 8rem;
     }
 
     #Hero .Btn--Hero .Registro{
-        width: 7rem;
-        padding: 13px 10px;
-        text-align: center;
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+        font-size: 16px;
+        max-width: 8rem;
     }
 
-    /*------------------- MISION SECCION -----------------*/
+    /*----------------- MISION SECCION --------------*/
 
     #MisionSeccion{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        max-width: 330px;
+        width: 100%;
+        height: auto;
+        max-width: 320px;
     }
 
     #MisionSeccion h2{
+        text-align: center;
         font-size: 20px;
-        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-        color: black;
-        line-height: 1.3;  
-        
+        line-height: 1.5;
+        padding: 15px 15px;
     }
 
     #MisionSeccion p{
-        max-width: 320px;
         text-align: center;
-        
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        padding: 15px;
+        line-height: 1.8;
     }
 
-    /*------------------- EL PROYECTO AND CARDS -----------------*/
+    /*-------------------------- EL PROYECTO AND CARDS --------------*/
 
     #ElProyecto{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }    
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+
+    }
+
 
     #ElProyecto h3{
         text-align: center;
-        max-width: 450px;
-        line-height: 1.5;
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+
     }
 
     #CardContainer{
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
         max-width: 280px;
-        
+        padding: 10px;
+
     }
 
-    #CardContainer .Cards-Proyecto{  
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        max-width: 280px;
-    }
-
-    #CardContainer .Cards-Proyecto img{
-        max-width: 260px;  /*VER TAMAñO DE IMG*/
+    #CardContainer .Cards-Proyecto{
+        width: 100%;
+        height: auto;
+        max-width: 280px;  /*VER SI ME GUSTA COMO QUEDA QUE LAS IMG SOBRESALGAN */
     }
 
     #CardContainer .Cards-Proyecto p{
-        padding: 15px;
+        padding: 5px;
     }
 
-    /*------------------- MAS INFO SECCION -----------------*/
+
+    /*------------------------ MÁS INFO PROYECTO -------------*/
+
 
     #MásInfoProyecto{
         display: flex;
-        align-items: center;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
         margin: 1rem auto;
-        max-width: 300px;
-        line-height: 1.5;
+        width: 100%;
+        height: auto;
+        max-width: 320px;
     }
 
-    #MásInfoProyecto h3{
-        font-size: 18px;
-        font-weight: 500;
-        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-        color: black;
-        line-height: 1.3;
-        
+
+    #MásInfoProyecto h3{     /*VER SI NO SE CENTRA*/
+        text-align: center;
+        font-size: 20px;
+        line-height: 1.5;
+        padding: 15px 15px;   
     }
 
     #MásInfoProyecto p{
-        max-width: 300px;
-        padding: 0.8px;
         text-align: center;
-
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        line-height: 1.8;
+        margin: 1rem auto;
     }
 
-    /*------------------- CONTACTO -----------------*/
+    /*--------------------------------- CONTACTO ------------------------*/
 
     #Contacto{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
+        height: auto;
+        max-width: 300px;
     }
 
     #Contacto h3{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin-bottom: 2rem;
+        font-size: 27px;
+        width: 100%;
+        height: auto;
+        max-width: 300px;
     }
 
     #Contacto p{
+        width: 100%;
+        height: auto;
         max-width: 300px;
-        padding: 0.8px;
-        text-align: justify;
-        
     }
 
     #Contacto .BTNContacto a{
-        width: 8rem;
-        padding: 13px 10px;
-        text-align: center;
-        
+        width: 100%;
+        height: auto;
+        max-width: 8rem;
     }
-
-    /*------------------- FOOTER -----------------*/
 
     footer{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     footer h4{
-        max-width: 400px;
-        padding: 10px;
+        width: 100%;
+        height: auto;
+        max-width: 300px;
         font-size: 17px;
+        margin-top: 1rem;
     }
 
     /*------------------- FORMULARIOS -----------------*/
@@ -268,6 +260,8 @@
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
+        width: 100%;
+        height: auto;
         max-width: 500px;
     }
 
@@ -284,9 +278,11 @@
     }
 
     form h2{
+        width: 100%;
+        height: auto;
         max-width: 400px;
         text-align: center;
-        font-size: 30px;
+        font-size: 27px;
         line-height: 1.8;
     }
 
@@ -309,263 +305,11 @@
     .TieneCuenta p a{
         font-size: larger;
     }
-  
-}
 
 
-/*------ ////////////// TABLET  //////////////////-----*/
+
+}    
 
 
-@media (max-width:770px){
 
-    .navbar ul{
-        gap: 40px;
-        font-size: 18px;
-    }
-
-    #Hero{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap:4rem;
-        width: 100%;
-        height: auto; 
-        max-width: 770px;
-        padding: 70px;
-    }
-
-
-    #Hero .Img--Hero img{
-        max-width: 600px;
-    }
-
-    #Hero .Textos--Hero h1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 1rem auto;
-        font-size: 30px;
-        max-width: 600px;
-        margin-bottom: 1rem;
-    }
-
-    #Hero .Textos--Hero h2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin: 1rem auto;
-        font-size: 20px;
-        max-width: 500px;
-    }
-
-    #Hero .Textos--Hero h3{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-        margin: 1rem auto;
-        text-align: center;
-        font-size: 18px;
-        max-width: 400px;
-    }
-
-    #Hero .Btn--Hero{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 16px;
-        gap: 20px;   
-    }
-
-    #Hero .Btn--Hero .IniciaSesionBtn{
-        width: 8rem;
-        padding: 14px 11px;
-        text-align: center;
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-    }
-
-    #Hero .Btn--Hero .Registro{
-        width: 7rem;
-        padding: 13px 10px;
-        text-align: center;
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-    }
-
-    /*------------------- MISION SECCION -----------------*/
-
-    #MisionSeccion{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        max-width: 500px;
-    }
-
-    #MisionSeccion h2{
-        font-size: 20px;
-        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-        color: black;
-        line-height: 1.3;   
-    }
-
-    #MisionSeccion p{
-        max-width: 500px;
-        text-align: center;
-        
-    }
-
-    /*------------------- EL PROYECTO AND CARDS -----------------*/
-
-    #ElProyecto h3{
-        text-align: center;
-        max-width: 500px;
-        line-height: 1.5;
-        margin: 2rem auto;
-    }
-
-    #CardContainer{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        max-width: 280px;
-        
-    }
-
-    #CardContainer .Cards-Proyecto{
-        
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    /*------------------- MAS INFO SECCION -----------------*/
-
-    #MásInfoProyecto{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 1rem auto;
-        max-width: 500px;
-        line-height: 1.5;
-    }
-
-    #MásInfoProyecto h3{
-        font-size: 18px;
-        font-weight: 500;
-        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-        color: black;
-        line-height: 1.3;
-        
-    }
-
-    #MásInfoProyecto p{
-        max-width: 500px;
-        padding: 0.8px;
-        text-align: center;
-
-    }
-
-    /*------------------- CONTACTO -----------------*/
-
-    #Contacto{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #Contacto h3{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin-bottom: 2rem;
-    }
-
-    #Contacto p{
-        max-width: 500px;
-        padding: 0.8px;
-        text-align: center;
-        
-    }
-
-    #Contacto .BTNContacto a{
-        width: 8rem;
-        padding: 13px 10px;
-        text-align: center;
-        
-    }
-
-    /*------------------- FOOTER -----------------*/
-
-    footer{
-        display: flex;
-        flex-direction: column;
-    }
-
-    footer h4{
-        max-width: 400px;
-        padding: 10px;
-        font-size: 17px;
-    }
-
-    /*------------------- FORMULARIOS -----------------*/
-
-    #Registro{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        max-width: 500px;
-        gap: 100px;
-    }
-
-    #Registro img{
-        max-width: 340px;
-        
-    }
-
-    form{
-        
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        max-width: 300px;
-    }
-
-
-    form h2{
-        max-width: 400px;
-        text-align: center;
-        font-size: 30px;
-        line-height: 1.8;
-    }
-
-    .inputGroup{
-        max-width: 300px;
-    }
-
-    .inputGroup .TerminosyCondiciones{
-        text-align: center;
-        max-width: 20rem;
-        font-size: 16px;
-    }
-
-    .BTNRegistro{
-        width: 7rem;
-        padding: 13px 10px;
-        text-align: center;
-    }
-
-    .TieneCuenta p a{
-        font-size: 25px;
-    }
-
-}
-
-
+    
