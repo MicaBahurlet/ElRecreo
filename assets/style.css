@@ -119,8 +119,8 @@ body{
     margin-top: 85px;
     gap: 4rem;
     width: 100%;
-    height: auto; /*VER ESTO COMO QUEDA, SINO VOLVER A AUTO*/
-    padding: 70px;
+    height: auto;
+    padding: 90px;
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     
     
@@ -137,7 +137,7 @@ body{
     height: auto;
     max-width: 500px;
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2));
-  
+    -webkit-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2));
 }
 
 #Hero .Textos--Hero h1 {
@@ -179,6 +179,7 @@ body{
     width: 10rem;
     text-align: center;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    Text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4)
    
 }
 
@@ -200,6 +201,7 @@ body{
     width: 10rem;
     text-align: center;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    Text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4)
     
 }
 
@@ -240,7 +242,7 @@ body{
     -o-border-radius: 14px;
     background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
     color: whitesmoke;
-    Text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4)
+    Text-shadow: 1px 1px 2px rgba(0, 0, 0, 1)
    
 }
 
@@ -347,14 +349,16 @@ body{
     -o-border-radius: 14px;
     background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
     color: whitesmoke;
-    Text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4)
+    Text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5)
+    
    
 }
 
 #MásInfoProyecto p{
     margin-bottom: 1rem;
-    font-size: 18px;
-    max-width: 780px;
+    margin-top: 3rem;
+    font-size: 19px;
+    max-width: 850px;
     line-height: 1.8;
     text-align: center;
 }
@@ -396,6 +400,7 @@ body{
     text-decoration: none;
     font-weight: 700;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    Text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4)
 }
 
 #Contacto .BTNContacto a:hover{
@@ -440,6 +445,7 @@ footer .LogoMicaBahurlet img{
 #Registro img{
     margin-top: 11rem;
     max-width: 500px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2));
 }
 
 
@@ -456,7 +462,7 @@ form{
 form h2{
     text-align: start;
     font-size: 35px;
-    text-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 
 }
 .inputGroup{
@@ -510,6 +516,11 @@ form h2{
     cursor: pointer;
     width: 13rem;
     text-align: center;
+    Text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4)
+}
+
+.BTNRegistro:hover{
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) ;
 }
 
 
@@ -524,6 +535,9 @@ form h2{
     cursor: pointer;
     text-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
+
+
+
 
 label{
     text-align: start;
