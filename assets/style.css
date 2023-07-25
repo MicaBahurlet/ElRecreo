@@ -119,8 +119,8 @@ body{
     margin-top: 85px;
     gap: 4rem;
     width: 100%;
-    height: 33rem; /*VER ESTO COMO QUEDA, SINO VOLVER A AUTO*/
-    padding: 25px;
+    height: auto; /*VER ESTO COMO QUEDA, SINO VOLVER A AUTO*/
+    padding: 70px;
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     
     
