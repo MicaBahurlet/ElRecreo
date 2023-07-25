@@ -313,7 +313,7 @@
 
 }    
 
-/*------------------- TABLET RESPONSIVE ----------*/
+/*-------------------//// TABLET RESPONSIVE ////----------*/
 
 
 @media (min-width: 670px) and (max-width: 1000px) {
@@ -328,7 +328,7 @@
         align-items: center;
         width: 100%;
         height: auto;
-        max-width: 1000px;
+        max-width: 900px;
         padding: 45px;
         margin-top: 6.8rem;
     }
@@ -342,6 +342,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
 
     #Hero .Textos--Hero h1{
@@ -419,7 +420,7 @@
         align-items: center;
         width: 100%;
         height: auto;
-        max-width: 800px;
+        max-width: 700px;
         margin: 1rem auto;
     }
 
@@ -442,7 +443,7 @@
         align-items: center;
         width: 100%;
         height: auto;
-        max-width: 210px;
+        max-width: 200px;
     }
 
     #CardContainer .Cards-Proyecto img{
