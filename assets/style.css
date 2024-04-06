@@ -119,7 +119,7 @@ body{
     margin-top: 85px;
     gap: 4rem;
     width: 100%;
-    height: auto;
+    height: 100vh;
     padding: 90px;
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     
@@ -130,12 +130,13 @@ body{
     width: 100%;
     height: auto;
     max-width: 700px;
+    margin-top: -10rem;
 }
 
 #Hero .Img--Hero img{
     width: 100%;
     height: auto;
-    max-width: 500px;
+    max-width: 550px;
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2));
     -webkit-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2));
 }
@@ -143,7 +144,8 @@ body{
 #Hero .Textos--Hero h1 {
     margin-bottom: 1rem;
     Text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-    font-size: 45px;
+    font-size: 50px;
+    
 } 
 
 #Hero .Textos--Hero h2{
@@ -168,19 +170,18 @@ body{
 #Hero .Btn--Hero .IniciaSesionBtn{
     color: white;
     background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
-    padding: 18px 20px;
-    border-radius: 13px;
-    -webkit-border-radius: 13px;
-    -moz-border-radius: 13px;
-    -ms-border-radius: 13px;
-    -o-border-radius: 13px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
     text-decoration: none;
     font-weight: 700;
-    width: 10rem;
+    width: 9rem;
     text-align: center;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-    Text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4)
-   
+    Text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4)   ;
 }
 
 #Hero .Btn--Hero .IniciaSesionBtn:hover{
@@ -190,19 +191,18 @@ body{
 #Hero .Btn--Hero .Registro{
     color: whitesmoke;
     background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
-    padding: 18px 20px;
-    border-radius: 13px;
-    -webkit-border-radius: 13px;
-    -moz-border-radius: 13px;
-    -ms-border-radius: 13px;
-    -o-border-radius: 13px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
     text-decoration: none;
     font-weight: 700;
-    width: 10rem;
+    width: 9rem;
     text-align: center;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-    Text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4)
-    
+    Text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4)    ;
 }
 
 #Hero .Btn--Hero .Registro:hover{
