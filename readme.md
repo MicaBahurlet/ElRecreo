@@ -35,12 +35,12 @@ Hero
 <br>
 Página de inicio de sesión
 
-<img src="./img/screensToReadme/Elrecreo2.png" alt="Carrito de Compras" style="max-width: 400px; border-radius: 10px;">
+<img src="./img/screensToReadme/ElRecreo2.png" alt="Carrito de Compras" style="max-width: 400px; border-radius: 10px;">
 
 <br>
 Cards informativas
 
-<img src="./img/screensToReadme/Elrecreo3.png" alt="Carrito de Compras" style="max-width: 400px; border-radius: 10px;">
+<img src="./img/screensToReadme/ElRecreo3.png" alt="Carrito de Compras" style="max-width: 400px; border-radius: 10px;">
 
 
 <br><br>
